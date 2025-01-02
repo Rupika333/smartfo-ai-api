@@ -1,0 +1,44 @@
+[
+    {
+        "user_query": "create a new job with account number 2 and phone number 1234567890 and RSC department",
+        "gpt_response_1": "{\n    \"intent\": \"Create New Job\"\n}"
+    },
+    {
+        "gpt_response_2": "{\n    \"fields\": {\n        \"account_number\": \"2\",\n        \"department\": \"RSC\",\n        \"phone\": \"1234567890\",\n        \"email\": \"No Context\",\n        \"pid\": \"No Context\"\n    },\n    \"missing_required_fields\": []\n}"
+    },
+    {
+        "user_query": "create a new job with account number 2 and phone number 1234567890 and RSC department and region is chennai",
+        "gpt_response_1": "{\n    \"intent\": \"Create New Job\",\n    \"fields\": {\n        \"account_number\": \"2\",\n        \"department\": \"RSC\",\n        \"phone\": \"1234567890\",\n        \"email\": \"No Context\",\n        \"pid\": \"No Context\",\n        \"region\": \"chennai\"\n    },\n    \"missing_required_fields\": []\n}"
+    },
+    {
+        "gpt_response_2": "{\n    \"fields\": {\n        \"account_number\": \"2\",\n        \"department\": \"RSC\",\n        \"phone\": \"1234567890\",\n        \"email\": \"No Context\",\n        \"pid\": \"No Context\",\n        \"region\": \"chennai\"\n    },\n    \"missing_required_fields\": []\n}"
+    },
+    {
+        "user_query": "priority create a new job with account number 2 and phone number 1234567890 and RSC department and management area is alabama",
+        "gpt_response_1": "{\n    \"intent\": \"priority job create task\",\n    \"fields\": {\n        \"account_number\": \"2\",\n        \"department\": \"RSC\",\n        \"phone\": \"1234567890\",\n        \"email\": \"No Context\",\n        \"pid\": \"No Context\",\n        \"region\": \"No Context\",\n        \"management_area\": \"alabama\"\n    },\n    \"missing_required_fields\": []\n}"
+    },
+    {
+        "gpt_response_2": "{\n    \"fields\": {\n        \"account_number\": \"2\",\n        \"department\": \"RSC\",\n        \"phone\": \"1234567890\",\n        \"email\": \"No Context\",\n        \"pid\": \"No Context\",\n        \"region\": \"No Context\",\n        \"management_area\": \"alabama\"\n    },\n    \"missing_required_fields\": [\n        \"region\"\n    ]\n}"
+    },
+    {
+        "user_query": "priority reassign job with account number 2 and phone number 1234567890 and RSC department and region is bangalore",
+        "gpt_response_1": "{\n    \"intent\": \"priority job reassign\",\n    \"fields\": {\n        \"account_number\": \"2\",\n        \"department\": \"RSC\",\n        \"phone\": \"1234567890\",\n        \"email\": \"No Context\",\n        \"pid\": \"No Context\",\n        \"region\": \"bangalore\",\n        \"management_area\": \"No Context\"\n    },\n    \"missing_required_fields\": []\n}"
+    },
+    {
+        "gpt_response_2": "{\n    \"fields\": {\n        \"account_number\": \"2\",\n        \"phone\": \"1234567890\",\n        \"department\": \"RSC\",\n        \"region\": \"bangalore\",\n        \"management_area\": \"No Context\",\n        \"email\": \"No Context\",\n        \"pid\": \"No Context\"\n    },\n    \"missing_required_fields\": [\n        \"management_area\"\n    ]\n}"
+    },
+    {
+        "user_query": "create a new job with account number 2 and phone number 1234567890",
+        "gpt_response_1": "{\n    \"intent\": \"Create New Job\",\n    \"fields\": {\n        \"account_number\": \"2\",\n        \"phone\": \"1234567890\",\n        \"department\": \"No Context\",\n        \"region\": \"No Context\",\n        \"management_area\": \"No Context\",\n        \"email\": \"No Context\",\n        \"pid\": \"No Context\"\n    },\n    \"missing_required_fields\": [\n        \"department\"\n    ]\n}"
+    },
+    {
+        "gpt_response_2": "{\n    \"fields\": {\n        \"account_number\": \"2\",\n        \"phone\": \"1234567890\",\n        \"department\": \"No Context\",\n        \"email\": \"No Context\",\n        \"pid\": \"No Context\"\n    },\n    \"missing_required_fields\": [\n        \"department\"\n    ]\n}"
+    },
+    {
+        "user_query": "create a new job with account number 2 and phone number 1234567890 and RSC department",
+        "gpt_response_1": "{\n    \"intent\": \"Create New Job\",\n    \"fields\": {\n        \"account_number\": \"2\",\n        \"phone\": \"1234567890\",\n        \"department\": \"RSC\",\n        \"email\": \"No Context\",\n        \"pid\": \"No Context\"\n    }\n}"
+    },
+    {
+        "gpt_response_2": "{\n    \"fields\": {\n        \"account_number\": \"2\",\n        \"department\": \"RSC\",\n        \"phone\": \"1234567890\",\n        \"email\": \"No Context\",\n        \"pid\": \"No Context\"\n    },\n    \"missing_required_fields\": []\n}"
+    }
+]

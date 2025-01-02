@@ -1,0 +1,3 @@
+User Query: create a new job with account number 8245112850020695 and phone number 1234567890 and pid is P3206192 and RSC Department
+Response: {'account_number': '8245112850020695', 'department': 'RSC', 'phone': '1234567890', 'pid': 'P3206192', 'email': 'No Context'}
+

@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+pymongo
+passlib[bcrpyt]
+langchain
+langchain-openai
+python-jose[cryptography]
+python-multipart
+bcrypt
+ruamel.yaml
+loguru
+openai
+langchain-community
+sentence_transformers
+pypdf
+faiss-cpu
+python-dotenv
